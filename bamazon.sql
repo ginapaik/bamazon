@@ -12,23 +12,14 @@ CREATE TABLE products (
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES  ('Dove Shampoo', 'Cosmetics', 5.75, 500),
-		('Dove Conditioner', 'Cosmetics', 6.25, 627),
-		('Glad 12 Gal Trash Bags', 'Grocery', 5.99, 300),
-		('Brawny Paper Towels', 'Grocery', 4.25, 400),
-		('Granny Smith Apples', 'Produce', 0.35, 800),
-		('Chiquita Bannana', 'Produce', 0.20, 10000),
-		('Tropicana Orange Juice', 'Grocery', 4.45, 267),
+VALUES  ('Herbal Essences Shampoo', 'Cosmetics', 5.75, 500),
+		('Herbal Essences Conditioner', 'Cosmetics', 6.25, 627),
+		('Colgate Toothpaste', 'Grocery', 5.99, 300),
+		('Bounty Paper Towels', 'Grocery', 4.25, 400),
+		('Rice Chex Cereal', 'Grocery', 1.99, 800),
+		('Fuji Apples', 'Produce', 0.99, 10000),
+		('Simply Orange Juice', 'Grocery', 3.99, 267),
 		('Horizon Organic Milk', 'Grocery', 4.50, 200),
 		('Huggies Diapers', 'Children', 2.75, 476),
-		('Charmin Toiler Paper', 'Grocery', 12.99, 575),
-		('Pampers Baby Wipes', 'Children', 1.50, 423),
-		('Yoga Mat', 'Sports', 12.75, 150),
-		('5lb Dumb bell', 'Sports', 7.99, 89),
-		('Tie Dye Shirt', 'Clothing', 5.55, 120),
-		('Nike Shorts', 'Clothing', 17.88, 250),
-		('Purina Cat Chow', 'Pet', 7.25, 157),
-		('Fancy Feast Wet Cat Food', 'Pet', 12.50, 163),
-		('Ibuprophen', 'Pharmacy', 4.95, 389),
-		('Band Aid', 'Pharmacy', 3.25, 550),
-		('Ben & Jerry Ice Cream', 'Grocery', 3.25, 432);
+		('Cover Girl Lipstick', 'Cosmetics', 4.50, 423),
+		('Motrin', 'Pharmacy', 7.99, 150);
