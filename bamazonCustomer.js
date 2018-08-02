@@ -74,7 +74,7 @@ function promptUserPurchase() {
 
 				// If the quantity requested by the user is in stock
 				if (quantity <= productData.stock_quantity) {
-					console.log('Congratulations, the product you requested is in stock! Placing order!');
+					console.log('The product you requested is in stock! Placing order!');
 
 					// Construct the updating query string
 					var updateQueryStr = 'UPDATE products SET stock_quantity = ' + (productData.stock_quantity - quantity) + ' WHERE item_id = ' + item;
@@ -92,7 +92,7 @@ function promptUserPurchase() {
 						connection.end();
 					})
 				} else {
-					console.log('Sorry, there is not enough product in stock, your order can not be placed as is.');
+					console.log('Sorry, there is not enough product in stock.');
 					console.log('Please modify your order.');
 					console.log("\n---------------------------------------------------------------------\n");
 
