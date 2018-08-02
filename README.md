@@ -12,8 +12,6 @@ Customer Interface
 
 The customer interface allows the user to view the current inventory of store items: item IDs, descriptions, department in which the item is located and price. The user is then able to purchase one of the existing items by entering the item ID and the desired quantity. If the selected quantity is currently in stock, the user's order is fulfilled, displaying the total purchase price and updating the store database. If the desired quantity is not available, the user is prompted to modify their order.
 
-<<<<<<< HEAD
-=======
 
 MySQL Bamazon Database prior to placing order (note the stock quantity for Item 2):
 ![image](https://user-images.githubusercontent.com/38335035/43616711-e6712e86-968b-11e8-80f7-aaf7deea9d4e.png)
@@ -29,4 +27,3 @@ Updated database after purchasing the order (note how the stock quantity for Ite
 
 Placing an order for an amount that exceeds what’s in stock:
 ![image](https://user-images.githubusercontent.com/38335035/43616801-6fe6137a-968c-11e8-838d-2af25a02349f.png)
->>>>>>> fdc743364f175c181e52ee35f9e795e1f27f5367
